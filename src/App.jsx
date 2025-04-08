@@ -1,4 +1,4 @@
-// A React app that parses a crontab file and shows time slots on a diagram
+// Vercel-ready React app to visualize crontab schedules
 import React, { useState } from "react";
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 import { Card, CardContent } from "@/components/ui/card";
@@ -17,7 +17,6 @@ function parseCrontab(content) {
 }
 
 function generateSchedule(jobs) {
-  // We’ll simulate 24 hours, with each hour broken into 60 minutes
   const timeline = Array(24 * 60).fill("free");
 
   jobs.forEach(job => {

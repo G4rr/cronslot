@@ -1,0 +1,5 @@
+"scripts": {
+  "dev": "vite",               // or "react-scripts start" if using CRA
+  "build": "vite build",       // or "react-scripts build"
+  "preview": "vite preview"    // or remove if CRA
+}
