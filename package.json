@@ -1,6 +1,4 @@
 {
-    "name": "cronslot",
-    "description": "read and visualize crontab file",
     "scripts": {
         "dev": "vite",               // or "react-scripts start" if using CRA
         "build": "vite build",       // or "react-scripts build"
